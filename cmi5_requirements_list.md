@@ -208,6 +208,9 @@
 * The LMS MUST add launchParameters to the context of a "Launched" statement when it is provided in the LMS launch data.
 * All statements MUST include a timestamp property per the xAPI specification to ensure statement ordering requirements are met.
 * All timestamps MUST be recorded in UTC time.
+
+### 10.0
+
 * Prior to launching an AU, the LMS MUST create or update a document in the State API record in the LRS.
 * This [the LMS.LaunchData] MUST be a JSON document, as defined in Section 10.0.
 * This [activityId property] MUST match the activity id used by the LMS at AU launch time.
